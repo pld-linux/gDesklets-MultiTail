@@ -1,5 +1,5 @@
-%define	pname	MultiTail
-%define	fname	multitail
+%define		pname	MultiTail
+%define		fname	multitail
 Summary:	MultiTail displays multiple log files in one gDesklets display
 Summary(pl):	MultiTail wy¶wietla zawarto¶æ wielu plików na jednym wy¶wietlaczu
 Name:		gDesklets-%{pname}
@@ -17,8 +17,8 @@ Provides:	gDesklets-display
 Provides:	gDesklets-sensor
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define	_sensorsdir	%{_datadir}/gdesklets/Sensors
-%define	_displaysdir	%{_datadir}/gdesklets/Displays
+%define		_sensorsdir	%{_datadir}/gdesklets/Sensors
+%define		_displaysdir	%{_datadir}/gdesklets/Displays
 
 %description
 MultiTail displays multiple log files in one gDesklets display.
