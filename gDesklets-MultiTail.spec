@@ -18,7 +18,7 @@ Provides:	gDesklets-sensor
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define	_sensorsdir	%{_datadir}/gdesklets/Sensors
-%define _displaysdir	%{_datadir}/gdesklets/Displays
+%define	_displaysdir	%{_datadir}/gdesklets/Displays
 
 %description
 MultiTail displays multiple log files in one gDesklets display.
