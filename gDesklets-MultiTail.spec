@@ -1,7 +1,7 @@
 %define		pname	MultiTail
 %define		fname	multitail
 Summary:	MultiTail displays multiple log files in one gDesklets display
-Summary(pl):	MultiTail wy¶wietla zawarto¶æ wielu plików na jednym wy¶wietlaczu
+Summary(pl.UTF-8):   MultiTail wyÅ›wietla zawartoÅ›Ä‡ wielu plikÃ³w na jednym wyÅ›wietlaczu
 Name:		gDesklets-%{pname}
 Version:	0.2.2
 Release:	2
@@ -23,8 +23,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 MultiTail displays multiple log files in one gDesklets display.
 
-%description -l pl
-MultiTail wy¶wietla zawarto¶æ wielu plików na jednym wy¶wietlaczu.
+%description -l pl.UTF-8
+MultiTail wyÅ›wietla zawartoÅ›Ä‡ wielu plikÃ³w na jednym wyÅ›wietlaczu.
 
 %prep
 %setup -q -n %{pname}-%{version}
